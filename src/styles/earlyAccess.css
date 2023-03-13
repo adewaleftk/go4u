@@ -21,7 +21,14 @@
 
 .getEarlyAccess {
     padding-top: 100px;
+    padding-right: 50px;
     float: right;
+}
+
+.app-l {
+    width: auto;
+    height: 564px;
+    padding-left: 50px;
 }
 
 .getEarlyAccessWord {

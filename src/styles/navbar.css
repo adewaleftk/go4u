@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 :root{
     --mainColor: white;
@@ -14,7 +14,7 @@
     --textColor: #000;
 }
 
-.navbar-link {
+/* .navbar-link {
     color: #000;
 }
 header{
@@ -63,7 +63,7 @@ nav {
         opacity: 1;
     }
 
-    header.nav{ */
+    header.nav{ */ 
         /* position: fixed; */
         /* top: 0;
         left: 0;
@@ -107,7 +107,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999;
+    /* z-index: 999; */
   }
   
   .logo img {
@@ -119,13 +119,16 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 50%;
+    padding-right: 300px;
   }
   
   .nav-links li {
     list-style: none;
   }
-
-  nav ul {
+  nav a:hover{
+    color: var(--secondaryColor);
+}
+  nav ul {  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,8 +139,11 @@ nav {
     color: #000;
     font-size: 18px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
+
   .burger {
     display: none;
   }
