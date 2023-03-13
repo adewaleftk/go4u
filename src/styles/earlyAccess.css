@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.appLoading {
+    width: 349px;
+    height: 400px;
+    left: 182px;
+    top: 770px;
+    padding-right: 50px;
+    float: left;
+}
+
+.earlyAccess {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.getEarlyAccess {
+    padding-top: 100px;
+    float: right;
+}
+
+.getEarlyAccessWord {
+    color: #E00000;
+    width: 205px;
+    height: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.bePart {
+    width: 516px;
+    height: 57px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.earlyWords {
+    width: 603px;
+    height: 114px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.subscribeInput {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    justify-content: center;
+    
+}
+
+input::placeholder {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #A5A5A5;
+    padding-left: 20px;
+}
+
+input[type="email"] {
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 357px;
+    height: 68px;
+    margin-right: 15px;
+    padding-left: 25px;
+}
+
+.submit {
+    width: 236px;
+    height: 68px;
+    background: #F70000;
+    border-radius: 30px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+     letter-spacing: 0.1px;
+}
+
+.allSubmit {
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .earlyWords {
+        width: 300px;
+        height: 114px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 38px;
+        letter-spacing: 0.1px;
+        color: #737373;
+    }
+
+    .bePart {
+        width: 300px;
+        height: 57px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    .appLoading, .getEarlyAccess {
+        /* width: 100%; */
+        float: none;
+    }
+
+    .getEarlyAccess {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

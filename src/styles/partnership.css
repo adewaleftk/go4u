@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.partnership {
+  clear: both;
+  background: #252B42;
+  width: 100%;
+  height: 370px;
+}
+
+.partnershipInfo {
+  text-align: center;
+  padding-top: 20px;
+  color: #ffffff;
+  letter-spacing: 0.2px;
+  padding-top: 50px;
+}
+
+.partnershipInfo h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.partnershipInfo p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.getInTouch {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.getInTouchButton {
+  color: #E10000;
+  background: #F70000;
+  border-radius: 10px;
+  width: 170px;
+  height: 64px;
+  padding-top: 16px;
+  margin-top: 15px;
+  margin-left: 620px;
+}
+
+@media only screen and (max-width: 480px) {
+  .getInTouchButton {
+    color: #E10000;
+    background: #F70000;
+    border-radius: 10px;
+    width: 170px;
+    height: 64px;
+    padding-top: 16px;
+    padding-left: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .partnership {
+    clear: both;
+    background: #252B42;
+    width: 600px;
+    height: 850px;
+  }
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoAndGO4U {
+    display: flex;
+}
+
+.footerLogo {
+    padding-left: 20px;
+    border-right: px;
+    padding-top: 5px;
+}
+
+.go4u {
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+.socialMediaIcons {
+    display: flex;
+    padding-top: 15px;
+}
+
+.socialMediaIcons img {
+    margin: 0 40px 5px 15px;
+}
+
+/* .instagramLogo {
+    padding-top: 0px;
+} */
+
+.copyright {
+    width: 255px;
+    height: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+    padding-top: 15px;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    .footer {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logoAndGO4U {
+        display: flex;
+    }
+    
+    .footerLogo {
+        padding-left: 20px;
+        border-right: px;
+        padding-top: 5px;
+    }
+    
+    .go4u {
+        padding-right: 15px;
+        margin-top: 15px;
+    }
+    
+    .socialMediaIcons {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    .socialMediaIcons img {
+        margin: 0 40px 5px 15px;
+    }
+    
+    /* .instagramLogo {
+        padding-top: 0px;
+    } */
+    
+    .copyright {
+        width: 255px;
+        height: 18px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: 0.1px;
+        color: #5C5C5C;
+        padding-top: 15px;
+        margin-top: 10px;
+        padding-right: 5px;
+    }
+}

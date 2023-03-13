@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+
+:root{
+    --mainColor: #ffffff;
+    --mainColorLight: #ffffff;
+    --secondaryColor: red;
+    --textColor: #ffffff;
+}
+
+div .main-header {
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 50px;
+    background-image: url('../images/navbar_background.png');
+    background-size: cover;
+    color: var(--textColor);
+    height: 500px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+     .main-header {
+        /* padding: 0px;
+        display: flex;
+        flex-direction: column;
+        border: 50px; */
+        background-image: url('../images/navbar_background.png');
+        background-size: cover;
+        background-position: center center;
+        color: var(--textColor);
+        height: 500px;
+        width: 100%;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 50;
+        font-size: 10px;
+    }
+    main-header h1{
+        display: flex;
+        justify-content: center;
+        color: var(--mainColor);
+        line-height: 76px;
+        width: 450px;
+        height: 153px;
+        font-weight: 800;
+        top: 12px;
+        align-self: center;
+    }
+    .main-header p {
+        display: flex;
+        justify-content: center;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 40;
+        font-size: 28px;
+        line-height: 35px;
+    }
+  }
+
+.main-header h1{
+    display: flex;
+    justify-content: center;
+    color: var(--mainColor);
+    line-height: 76px;
+    width: 1180px;
+    height: 153px;
+    font-weight: 800;
+    top: 132px;
+    align-self: center;
+    
+}
+
+.main-header p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.playStore {
+    display: inline-block;
+    padding: 8px 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-radius: 25px;
+    border-color: blue;
+    border: 1.5px solid white;
+    margin-right: 20px;
+    width: 170px;
+    border-radius: 31.3253px;
+}
+
+.playStore:hover {
+    background-color: red;
+}
+.playStoreLink {
+    color: white;
+    text-decoration: none;
+}
+
+.appStore {
+    display: inline-block;
+    padding: 8px 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 25px;
+    margin-left: 20px;
+    width: 170px;
+    border-radius: 31.3253px;
+}
+
+.appStoreLink {
+    text-decoration: none;
+    color: white;
+}
+
+.appStore:hover {
+    background-color: red;
+}
