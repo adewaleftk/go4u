@@ -70,4 +70,54 @@
     padding-right: 80px;
 }
 
+@media screen and (max-width: 600px) {
+    .orderFrom {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
 
+    .restaur {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    .allExplore {
+        display: inline-block;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .orderFor {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+    }
+
+    .track {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+    }
+
+    .appHome {
+        /* float: right; */
+        padding-right: 8px;
+        padding-top: 20px;
+    }
+}

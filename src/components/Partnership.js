@@ -10,6 +10,7 @@ function Partnership() {
             <p>logistics company looking to expand your reach. Or you would</p>
             <p>like to be part of what we are building.</p>
             <div className="getInTouchButton">
+              
                 <a href="www.whatever.com" target="_blank" className="getInTouch">Get In Touch</a>
             </div>
         </div>

@@ -59,10 +59,44 @@
   margin-left: 620px;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
+  
+  .partnership {
+    clear: both;
+    background: #252B42;
+    width: 100%;
+    height: 500px;
+  }
+
+  .partnershipInfo h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 7px;
+    letter-spacing: 0.2px;
+  }
+  
+  .partnershipInfo p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+  }
+  .getInTouch {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
   .getInTouchButton {
-    color: #E10000;
-    background: #F70000;
+    /* color: #E10000; */
+    /* background: #F70000; */
     border-radius: 10px;
     width: 170px;
     height: 64px;
@@ -70,11 +104,9 @@
     padding-left: 50px;
     margin-top: 15px;
     margin-left: 20px;
-  }
-  .partnership {
-    clear: both;
-    background: #252B42;
-    width: 600px;
-    height: 850px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
   }
 }

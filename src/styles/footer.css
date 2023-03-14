@@ -56,8 +56,8 @@
     padding-right: 5px;
 }
 
-@media only screen and (max-width: 480px) {
-    .footer {
+@media screen and (max-width: 600px) {
+    /* .footer {
         height: 80px;
         display: flex;
         justify-content: space-between;
@@ -92,7 +92,7 @@
     } */
     
     .copyright {
-        width: 255px;
+        /* width: 255px;
         height: 18px;
         font-family: 'Roboto';
         font-style: normal;
@@ -104,6 +104,17 @@
         color: #5C5C5C;
         padding-top: 15px;
         margin-top: 10px;
-        padding-right: 5px;
+        padding-right: 5px; */
+        height: 40px;
+    } 
+
+    .footer {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background: green;
+        display: inline-block;
     }
+    
 }
