@@ -27,26 +27,21 @@ function Navbar() {
     //         <FaBars/>
     //     </button>
     // </header>
-        <div>
-            <nav>
-                <div className="logo">
-                    <a href="/">
-                    <img src={require('../images/GO4U-LOGO.png')} alt="Logo" />
-                    </a>
-                </div>
-                <ul className="nav-links">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Access</a></li>
-                    <li><a href="/">Earn</a></li>
-                    <li><a href="/">Contact</a></li>
-                </ul>
-                <div className="burger">
-                    <div className="line1"></div>
-                    <div className="line2"></div>
-                    <div className="line3"></div>
-                </div>
-            </nav>
-        </div>
+    <nav className="navbar">
+        <div className="nav-container">
+      <div className="logo">
+        <a href="/">
+        <img src={require('../images/GO4U-LOGO.png')} alt="Logo" />
+        </a>
+      </div>
+      <div className="links">
+        <a href="/">Home</a>
+        <a href="/">Access</a>
+        <a href="/">Earn</a>
+        <a href="/">Contact</a>
+      </div>
+      </div>
+    </nav>
   );
 }
 

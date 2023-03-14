@@ -92,29 +92,49 @@
     } */
     
     .copyright {
-        /* width: 255px;
-        height: 18px;
+        width: auto;
+        height: 8px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 6px;
         line-height: 18px;
-        text-align: right;
         letter-spacing: 0.1px;
         color: #5C5C5C;
-        padding-top: 15px;
-        margin-top: 10px;
-        padding-right: 5px; */
+        margin-top: 15px;
+        padding-right: 5px;
         height: 40px;
     } 
 
     .footer {
-        height: 500px;
+        height: 80px;
         width: 100%;
         display: flex;
-        justify-content: space-between;
-        background: green;
-        display: inline-block;
+        justify-content: center;
+        background: #ffffff;
+    }
+
+    .go4u img {
+        padding-right: 0px;
+        margin-top: 15px;
+        width: 50px;
+        height: auto;
     }
     
+    .footerLogo img {
+        width: 60px;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .socialMediaIcons img {
+        width: 30px;
+        height: auto;
+        margin: 0 20px 0px 0px;
+    }
+
+    .socialMediaIcons {
+        display: flex;
+        justify-content: space-between;
+    }
 }
