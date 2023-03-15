@@ -7,7 +7,7 @@
     --textColor: #ffffff;
 }
 
-div .main-header {
+.main-header {
     padding: 200px;
     display: flex;
     flex-direction: column;
@@ -22,15 +22,14 @@ div .main-header {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
      .main-header {
-        /* padding: 0px;
+        padding: 0px;
         display: flex;
         flex-direction: column;
-        border: 50px; */
+        border: 10px;
         background-image: url('../images/navbar_background.png');
         background-size: cover;
-        background-position: center center;
         color: var(--textColor);
         height: 500px;
         width: 100%;
@@ -38,40 +37,54 @@ div .main-header {
         font-style: normal;
         font-weight: 50;
         font-size: 10px;
+        padding-top: 100px;
     }
-    main-header h1{
+
+    .look {
+        font-size: large;
+    }
+    .go4uIs {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+        padding-bottom: 15px;
+    }
+    .the {
+        font-size: 20px;
+    }
+    .main-header h1{
         display: flex;
         justify-content: center;
         color: var(--mainColor);
         line-height: 76px;
-        width: 450px;
+        width: 100px;
         height: 153px;
-        font-weight: 800;
+        font-weight: 80;
         top: 12px;
         align-self: center;
     }
-    .main-header p {
-        display: flex;
-        justify-content: center;
-        font-family: 'Sora';
-        font-style: normal;
-        font-weight: 40;
-        font-size: 28px;
-        line-height: 35px;
-    }
   }
 
-.main-header h1{
+div .main-header h1{
     display: flex;
     justify-content: center;
     color: var(--mainColor);
-    line-height: 76px;
-    width: 1180px;
-    height: 153px;
+    line-height: 50px;
+    width: 1000px;
+    height: 80px;
     font-weight: 800;
     top: 132px;
-    align-self: center;
-    
+    align-self: center;  
+}
+
+.go4uIs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .main-header p {
