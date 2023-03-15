@@ -27,21 +27,24 @@
         padding: 0px;
         display: flex;
         flex-direction: column;
-        border: 10px;
+        border: 1px;
         background-image: url('../images/navbar_background.png');
         background-size: cover;
         color: var(--textColor);
-        height: 500px;
+        height: 300px;
         width: 100%;
         font-family: 'Sora';
         font-style: normal;
         font-weight: 50;
         font-size: 10px;
-        padding-top: 100px;
+        padding-top: 70px;
+        line-height: 1.2;
     }
 
     .look {
         font-size: large;
+        height: 10px;
+        line-height: 1.2em;
     }
     .go4uIs {
         font-size: 20px;
@@ -55,14 +58,39 @@
     .the {
         font-size: 20px;
     }
-    .main-header h1{
+    .main-header .look{
         display: flex;
         justify-content: center;
         color: var(--mainColor);
-        line-height: 76px;
-        width: 100px;
-        height: 153px;
-        font-weight: 80;
+        line-height: 9px;
+        width: full;
+        height: 50px;
+        font-weight: 800;
+        top: 12px;
+        align-self: center;
+    }
+
+    .main-header .the{
+        display: flex;
+        justify-content: center;
+        color: var(--mainColor);
+        line-height: 9px;
+        width: full;
+        height: 50px;
+        font-weight: 800;
+        top: 12px;
+        align-self: center;
+    }
+
+    .main-header .go4uIs{
+        display: flex;
+        justify-content: center;
+        color: var(--mainColor);
+        line-height: 9px;
+        width: full;
+        height: 20px;
+        font-weight: 800;
+        font-size: 14px;
         top: 12px;
         align-self: center;
     }
