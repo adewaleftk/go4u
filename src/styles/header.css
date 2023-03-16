@@ -39,31 +39,36 @@
         font-size: 10px;
         padding-top: 70px;
         line-height: 1.2;
+        
     }
 
     .look {
         font-size: large;
         height: 10px;
         line-height: 1.2em;
+        border: solid black 5px;
     }
     .go4uIs {
-        font-size: 20px;
+        font-size: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
         margin: 0px;
         padding-bottom: 15px;
+        border: solid black 5px;
     }
     .the {
         font-size: 20px;
+        border: solid black 5px;
+        padding-right: 0px;
     }
     .main-header .look{
         display: flex;
         justify-content: center;
         color: var(--mainColor);
         line-height: 9px;
-        width: full;
+        width: 300px;
         height: 50px;
         font-weight: 800;
         top: 12px;
@@ -75,7 +80,7 @@
         justify-content: center;
         color: var(--mainColor);
         line-height: 9px;
-        width: full;
+        width: 300px;
         height: 50px;
         font-weight: 800;
         top: 12px;
