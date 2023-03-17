@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 // import { useRef } from 'react';
 // import { FaBars, FaTimes } from "react-icons/fa"
 import "../styles/navbar.css";
@@ -9,6 +9,11 @@ function Navbar() {
     // const showNavbar = () => {
     //     navRef.current.classList.toggle("responsive_nav");
     // }
+    const [ isMenuOpen, setIsMenuOpen ] = useState(false);
+
+    const handleMenuClick = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
   return (
     // <header>
     //     <a href="/">
