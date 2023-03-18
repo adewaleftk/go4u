@@ -9,5 +9,15 @@
         display: flex;
         border: 3px solid black;
         width: 175px;
+        justify-content: space-around;
+    }
+    .facebook {
+        margin-top: 5px;
+    }
+    .twitter {
+        margin-top: 5px;
+    }
+    .instagram {
+        margin-top: 2px;
     }
 }

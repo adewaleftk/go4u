@@ -104,5 +104,10 @@
     }
     .moreInfo h2 {
         font-size: 20px;
+        font-weight: 800;
+    }
+    .moreInfo p {
+        font-size: 10px;
+        line-height: 20px;
     }
 }
