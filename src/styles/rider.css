@@ -78,7 +78,9 @@
     margin-top: 15px;
 }
 
+
 @media screen and (max-width: 600px) {
+
     .rider {
         clear: both;
         display: flex;
@@ -86,6 +88,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .riderImage {
         float: left;
         padding-left: 20px;
@@ -93,19 +96,23 @@
         padding-top: 20px;
         width: 100%;
     }
+
     .riderPic {
         width: 300px;
         height: auto;
     }
+
     .earnInfo {
         width: 100%;
         padding-left: 20px;
         
     }
+
     .moreInfo h2 {
         font-size: 20px;
         font-weight: 800;
     }
+
     .moreInfo p {
         font-size: 10px;
         line-height: 20px;

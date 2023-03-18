@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -15,7 +18,6 @@
 }
 
 .earlyAccess {
-    /* display: flex; */
     justify-content: center;
 }
 
@@ -65,9 +67,6 @@
     line-height: 38px;
     letter-spacing: 0.2px;
     color: #737373;
-    /* flex: none;
-    order: 0;
-    flex-grow: 0; */
 }
 
 .subscribeInput {
@@ -117,7 +116,9 @@ input[type="email"] {
     padding-top: 15px;
 }
 
+
 @media screen and (max-width: 600px) {
+
     .earlyWords {
         width: auto;
         height: 114px;
@@ -129,17 +130,6 @@ input[type="email"] {
         letter-spacing: 0.01px;
         color: #737373;
     }
-
-    /* .app-l {
-        width: full;
-        height: full;
-        padding-left: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
-
-    
     .bePart {
         width: 300px;
         height: 57px;
@@ -153,7 +143,6 @@ input[type="email"] {
     }
 
     .appLoading, .getEarlyAccess {
-        /* width: 100%; */
         float: none;
     }
 
@@ -180,7 +169,6 @@ input[type="email"] {
         margin-right: 5px;
         padding-left: 2px;
     }
-
     .submit {
         width: 150px;
         height: 68px;

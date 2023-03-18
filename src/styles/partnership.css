@@ -84,6 +84,7 @@
     font-size: 12px;
     line-height: 38px;
   }
+  
   .getInTouch {
     text-decoration: none;
     color: #ffffff;
@@ -95,8 +96,6 @@
   }
 
   .getInTouchButton {
-    /* color: #E10000; */
-    /* background: #F70000; */
     border-radius: 10px;
     width: 170px;
     height: 64px;
@@ -109,6 +108,7 @@
     justify-content: center;
     align-self: left;
   }
+
   .partnershipInfo {
     text-align: left;
   }

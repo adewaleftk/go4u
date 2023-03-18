@@ -8,9 +8,9 @@
 }
 
 :root{
-    --mainColor: white;
-    --mainColorLight: white;
-    --secondaryColor: red;
+    --mainColor: #ffffff;
+    --mainColorLight: #ffffff;
+    --secondaryColor: #E00000;
     --textColor: #000;
 }
 
@@ -31,14 +31,14 @@
 }
 
 .links a {
-  color: black;
+  color: #000;
   margin: 0 1rem;
   font-size: 1.2rem;
   text-decoration: none;
 }
 
 .links a:hover {
-  color: red;
+  color: #E00000;
 }
 
 .nav-container {
@@ -46,16 +46,13 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* max-width: 1200px;
-  padding: 0 20px; */
 }
 
 @media screen and (max-width: 600px) {
+
   .links {
-    /* width: full; */
     display: flex;
     justify-content: space-between;
-    border: solid black 5px;
     padding-right: 0px;
   }
   .links a {

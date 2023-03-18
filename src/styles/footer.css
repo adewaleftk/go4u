@@ -36,10 +36,6 @@
     margin: 0 40px 5px 15px;
 }
 
-/* .instagramLogo {
-    padding-top: 0px;
-} */
-
 .copyright {
     width: 255px;
     height: 18px;
@@ -57,40 +53,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    /* .footer {
-        height: 80px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .logoAndGO4U {
-        display: flex;
-    }
-    
-    .footerLogo {
-        padding-left: 20px;
-        border-right: px;
-        padding-top: 5px;
-    }
-    
-    .go4u {
-        padding-right: 15px;
-        margin-top: 15px;
-    }
-    
-    .socialMediaIcons {
-        display: flex;
-        padding-top: 15px;
-    }
-    
-    .socialMediaIcons img {
-        margin: 0 40px 5px 15px;
-    }
-    
-    /* .instagramLogo {
-        padding-top: 0px;
-    } */
-    
+
     .copyright {
         width: auto;
         height: 8px;

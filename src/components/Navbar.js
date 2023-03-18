@@ -4,34 +4,9 @@ import React, { useState } from 'react';
 import "../styles/navbar.css";
 
 function Navbar() {
-    // const navRef = useRef();
-
-    // const showNavbar = () => {
-    //     navRef.current.classList.toggle("responsive_nav");
-    // }
-    const [ isMenuOpen, setIsMenuOpen ] = useState(false);
-
-    const handleMenuClick = () => {
-        setIsMenuOpen(!isMenuOpen);
-    };
+  
   return (
-    // <header>
-    //     <a href="/">
-    //         <img src={require('../images/GO4U-LOGO.png')} alt="Logo" />
-    //     </a>
-    //     <nav ref={navRef}>
-    //         <a href='/#' className="navbar-link">Home</a>
-    //         <a href='/#' className="navbar-link">Early Access</a>
-    //         <a href='/#' className="navbar-link">Earn</a>
-    //         <a href='/#' className="navbar-link">Contact</a>
-    //         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-    //             <FaTimes/>
-    //         </button>
-    //     </nav>
-    //     <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-    //         <FaBars/>
-    //     </button>
-    // </header>
+    
     <nav className="navbar">
         <div className="nav-container">
       <div className="logo">

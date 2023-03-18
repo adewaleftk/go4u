@@ -11,10 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className='App'>
-          
-    <React.Fragment>
-      <Navbar />
-    </React.Fragment>
+    <Navbar />
     <Header />
     <EarlyAccess />
     <HowAppWorks />

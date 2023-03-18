@@ -3,7 +3,7 @@
 :root{
     --mainColor: #ffffff;
     --mainColorLight: #ffffff;
-    --secondaryColor: red;
+    --secondaryColor: #E00000;
     --textColor: #ffffff;
 }
 
@@ -21,85 +21,6 @@
     font-weight: 50;
     font-size: 20px;
 }
-
-@media screen and (max-width: 600px) {
-     .main-header {
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        border: 1px;
-        background-image: url('../images/navbar_background.png');
-        background-size: cover;
-        color: var(--textColor);
-        height: 300px;
-        width: 100%;
-        font-family: 'Sora';
-        font-style: normal;
-        font-weight: 50;
-        font-size: 10px;
-        padding-top: 70px;
-        line-height: 1.2;
-        
-    }
-
-    .look {
-        font-size: 10px;
-        height: 10px;
-        line-height: 1.2em;
-        border: solid black 5px;
-    }
-    .go4uIs {
-        font-size: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin: 0px;
-        padding-bottom: 15px;
-        border: solid black 5px;
-    }
-    .the {
-        font-size: 10px;
-        border: solid black 5px;
-        padding-right: 0px;
-    }
-    .main-header .look{
-        display: flex;
-        justify-content: center;
-        color: var(--mainColor);
-        line-height: 9px;
-        width: 300px;
-        height: 50px;
-        font-weight: 800;
-        top: 12px;
-        align-self: center;
-    }
-
-    .main-header .the{
-        display: flex;
-        justify-content: center;
-        color: var(--mainColor);
-        line-height: 9px;
-        width: 300px;
-        height: 50px;
-        font-weight: 800;
-        top: 12px;
-        align-self: center;
-    }
-
-    /* .main-header .go4uIs{
-        display: flex;
-        justify-content: center;
-        color: var(--mainColor);
-        line-height: 9px;
-        width: full;
-        height: 20px;
-        font-weight: 800;
-        font-size: 14px;
-        top: 12px;
-        align-self: center;
-    } */
-  }
 
 div .main-header h1{
     display: flex;
@@ -145,7 +66,6 @@ div .main-header h1{
     color: white;
     background-color: transparent;
     border-radius: 25px;
-    border-color: blue;
     border: 1.5px solid white;
     margin-right: 20px;
     width: 170px;
@@ -166,7 +86,6 @@ div .main-header h1{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: green;
     background-color: transparent;
     border: 1.5px solid white;
     border-radius: 25px;
@@ -183,3 +102,70 @@ div .main-header h1{
 .appStore:hover {
     background-color: red;
 }
+
+
+@media screen and (max-width: 600px) {
+
+    .main-header {
+       padding: 0px;
+       display: flex;
+       flex-direction: column;
+       border: 1px;
+       background-image: url('../images/navbar_background.png');
+       background-size: cover;
+       color: var(--textColor);
+       height: 300px;
+       width: 100%;
+       font-family: 'Sora';
+       font-style: normal;
+       font-weight: 50;
+       font-size: 10px;
+       padding-top: 70px;
+       line-height: 1.2;    
+   }
+
+   .look {
+       font-size: 10px;
+       height: 10px;
+       line-height: 1.2em;
+   }
+
+   .go4uIs {
+       font-size: 10px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+       margin: 0px;
+       padding-bottom: 15px;
+   }
+
+   .the {
+       font-size: 10px;
+       padding-right: 0px;
+   }
+
+   .main-header .look{
+       display: flex;
+       justify-content: center;
+       color: var(--mainColor);
+       line-height: 9px;
+       width: 300px;
+       height: 50px;
+       font-weight: 800;
+       top: 12px;
+       align-self: center;
+   }
+
+   .main-header .the{
+       display: flex;
+       justify-content: center;
+       color: var(--mainColor);
+       line-height: 9px;
+       width: 300px;
+       height: 50px;
+       font-weight: 800;
+       top: 12px;
+       align-self: center;
+   }
+ }
