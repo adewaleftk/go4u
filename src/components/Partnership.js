@@ -12,7 +12,7 @@ function Partnership() {
             <p>like to be part of what we are building.</p>
             <div className="getInTouchButton">
               
-                <a href="www.whatever.com" target="_blank" className="getInTouch">Get In Touch</a>
+                <a href="mailto:support@Go4u.ng" target="_blank" rel="noopener noreferrer" className="getInTouch">Get In Touch</a>
             </div>
         </div>
         <SocialMediaIcons />
