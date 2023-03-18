@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/partnership.css";
+import SocialMediaIcons from './SocialMediaIcons';
 
 function Partnership() {
   return (
@@ -14,6 +15,7 @@ function Partnership() {
                 <a href="www.whatever.com" target="_blank" className="getInTouch">Get In Touch</a>
             </div>
         </div>
+        <SocialMediaIcons />
     </div>
   )
 }

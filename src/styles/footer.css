@@ -134,7 +134,6 @@
     }
 
     .socialMediaIcons {
-        display: flex;
-        justify-content: space-between;
+        display: none;
     }
 }

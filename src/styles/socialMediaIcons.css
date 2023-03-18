@@ -1,0 +1,13 @@
+@media screen and (min-width: 600px) {
+    .social-media-icons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .social-media-icons {
+        display: flex;
+        border: 3px solid black;
+        width: 175px;
+    }
+}
