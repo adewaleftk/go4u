@@ -153,7 +153,7 @@ input[type="email"] {
     .getEarlyAccess {
         padding-top: 160px;
         font-size: 14px;
-        padding-left: 0px;
+        padding-left: 20px;
     }
 
     .allSubmit {
@@ -170,7 +170,7 @@ input[type="email"] {
         padding-left: 2px;
     }
     .submit {
-        width: 150px;
+        width: 130px;
         height: 68px;
         background: #F70000;
         border-radius: 30px;

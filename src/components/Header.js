@@ -12,10 +12,10 @@ function Header() {
         <br />
         <div className="buttons">
           <div className="playStore">
-            <a href="playstore.com" target="_blank" className="playStoreLink">Play Store</a>
+            <a href="/" target="_blank" className="playStoreLink">Play Store</a>
             </div>
         <div className="appStore">
-          <a href="appstore.com" target="_blank" className="appStoreLink">App Store</a>
+          <a href="/" className="appStoreLink">App Store</a>
           </div>
         </div>
     </div>
