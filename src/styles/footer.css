@@ -6,6 +6,8 @@
     box-sizing: border-box;
   }
 
+  @media only screen and (min-width: 961px) {
+
 .footer {
     height: 50px;
     display: flex;
@@ -51,8 +53,9 @@
     margin-top: 10px;
     padding-right: 5px;
 }
+}
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 401px) and (max-width: 600px) {
 
     .copyright {
         width: auto;
@@ -99,5 +102,62 @@
 
     .socialMediaIcons {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+    .copyright {
+        width: 100%;
+        height: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 18px;
+        letter-spacing: 0.1px;
+        color: #5C5C5C;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    } 
+
+    .footer {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #ffffff;
+        flex-direction: column;
+    }
+
+    .go4u img {
+        padding-right: 0px;
+        margin-top: 15px;
+        width: 100px;
+        height: auto;
+    }
+    
+    .footerLogo img {
+        width: 100px;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .socialMediaIcons img {
+        width: 30px;
+        height: auto;
+        margin: 0 20px 0px 0px;
+    }
+
+    .socialMediaIcons {
+        display: none;
+    }
+
+    .logoAndGO4U {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
     }
 }

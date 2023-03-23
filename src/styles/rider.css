@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+@media only screen and (min-width: 961px) {
 
 .rider {
     clear: both;
@@ -77,9 +77,10 @@
     padding-top: 16px;
     margin-top: 15px;
 }
+}
 
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 401px) and (max-width: 600px) {
 
     .rider {
         clear: both;
@@ -117,9 +118,92 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 10px;
         line-height: 28px;
         text-align: justify;
+        letter-spacing: 0.2px;
         color: #737373;        
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+    .rider {
+        clear: both;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .riderImage {
+        /* float: left; */
+        padding-left: 20px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .riderPic {
+        width: 300px;
+        height: auto;
+    }
+
+    .earnInfo {
+        width: 100%;
+        padding-left: 20px;
+        
+    }
+
+    .moreInfo h2 {
+        font-size: 35px;
+        font-weight: 800;
+    }
+
+    .moreInfo p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: justify;
+        letter-spacing: 0.2px;
+        color: #737373;        
+    }
+
+    .earn {
+        color: #E10000;
+        padding-bottom: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+    }
+
+    .applyLink {
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .applyBox {
+        color: #E10000;
+        background: #F70000;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+        width: 250px;
+        height: 68px;
+        padding-top: 0px;
+        margin-top: 20px;
+        display: flex; 
     }
 }

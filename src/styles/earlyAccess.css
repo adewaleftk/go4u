@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap'); */
 
 *{
     padding: 0;
@@ -7,6 +7,8 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media only screen and (min-width: 961px) {
 
 .appLoading {
     width: 349px;
@@ -70,7 +72,7 @@
 }
 
 .subscribeInput {
-    font-family: 'Sora';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -80,7 +82,7 @@
 }
 
 input::placeholder {
-    font-family: 'Sora';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -115,9 +117,10 @@ input[type="email"] {
 .allSubmit {
     padding-top: 15px;
 }
+}
 
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 401px) and (max-width: 600px) {
 
     .earlyWords {
         width: auto;
@@ -181,5 +184,95 @@ input[type="email"] {
         font-size: 24px;
         line-height: 36px;
         letter-spacing: 0.1px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+    .earlyWords {
+        width: auto;
+        height: 114px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 38px;
+        letter-spacing: 0.01px;
+        color: #737373;
+    }
+    .bePart {
+        width: 500px;
+        height: 57px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    .appLoading, .getEarlyAccess {
+        float: none;
+    }
+
+    .getEarlyAccessWord {
+        font-size: 50px;
+        width: 450px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+    }
+
+    .getEarlyAccess {
+        padding-top: 160px;
+        font-size: 14px;
+        padding-left: 20px;
+        border: 2px solid green;
+    }
+
+    .allSubmit {
+        padding-top: 50px;
+        font-size: 7px;
+    }
+
+    input[type="email"] {
+        background: #FFFFFF;
+        border-radius: 30px;
+        width: 300px;
+        height: 68px;
+        margin-right: 5px;
+        padding-left: 2px;
+    }
+    .submit {
+        width: 200px;
+        height: 68px;
+        background: #F70000;
+        border-radius: 30px;
+        color: #ffffff;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+    }
+
+    .earlyWords {
+        width: 603px;
+        height: 114px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        width: 550px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    .app-l {
+        width: auto;
+        height: auto;
+        margin-left: 50px;
+       
     }
 }

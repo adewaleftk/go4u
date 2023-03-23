@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+@media only screen and (min-width: 961px) {
+
 .allExplore {
     display: block;
     padding-top: 60px;
@@ -48,6 +50,7 @@
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.2px;
+    color: #737373;
 }
 
 .track {
@@ -57,6 +60,7 @@
     font-size: 24px;
     line-height: 38px;
     letter-spacing: 0.2px;
+    color: #737373;
 }
 
 .exploreWords {
@@ -69,8 +73,9 @@
     float: right;
     padding-right: 80px;
 }
+}
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 401px) and (max-width: 600px) {
     .orderFrom {
         font-family: 'Montserrat';
         font-style: normal;
@@ -135,5 +140,84 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 36px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+
+    .orderFrom {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    .restaur {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    .allExplore {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .orderFor {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    .track {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    .appHome {
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-right: 0;
+        margin-left: 50px;
+        width: auto;
+        height: auto;
+    }
+    .appHome img {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .exploreHeading {
+        color: #E10000;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 36px;
+    }
+
+    .exploreWords {
+        float: left;
+        padding-left: 0px;
+        padding-top: 0px;
     }
 }
