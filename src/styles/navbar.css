@@ -16,44 +16,46 @@
 
 @media only screen and (min-width: 961px) {
 
-.nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333;
-  padding: 1rem;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #000;
-  padding-right: 500px;
-}
-
-.links a {
-  color: #000;
-  margin: 0 1rem;
-  font-size: 1.2rem;
-  text-decoration: none;
-}
-
-.links a:hover {
-  color: #E00000;
-}
-
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+    padding-right: 0px;
+    width: 80%;
+  }
+  
+  .links a {
+    color: #000;
+    margin: 0 1rem;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    color: #E00000;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 600px) {
 
-  .links {
+  /* .links {
     display: flex;
     justify-content: space-between;
     padding-right: 0px;
@@ -64,20 +66,79 @@
 
   .logo img {
     width: 70px;
+  } */
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+    padding-right: 0px;
+    width: 80%;
+  }
+
+  .logo img {
+    width: 40%;
+  }
+  
+  .links a {
+    color: #000;
+    margin: 0px;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    color: #E00000;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
   }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 960px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
   .links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
     padding-right: 0px;
+    width: 80%;
   }
+  
   .links a {
-    font-size: 25px;
+    color: #000;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
   }
-
-  .logo img {
-    width: 70px;
+  
+  .links a:hover {
+    color: #E00000;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 }

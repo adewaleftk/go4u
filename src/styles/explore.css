@@ -168,6 +168,8 @@
     .allExplore {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding-top: 10px;
         padding-left: 20px;
     }
@@ -204,6 +206,7 @@
         display: flex;
         justify-content: center;
         align-self: center;
+        margin-top: 20px;
     }
 
     .exploreHeading {
@@ -212,7 +215,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 50px;
-        line-height: 36px;
+        line-height: 50px;
     }
 
     .exploreWords {
