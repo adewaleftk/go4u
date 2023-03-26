@@ -250,11 +250,14 @@ input[type="email"] {
         margin-top: 10px;
         font-size: 14px;
         padding-left: 20px;
+        display: flex;
+        flex-direction: column;
     }
 
     .allSubmit {
-        padding-top: 50px;
         font-size: 7px;
+        display: flex;
+        margin-top: 100px;
     }
 
     input[type="email"] {

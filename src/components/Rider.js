@@ -29,7 +29,7 @@ function Rider() {
                 </div>
             </div>
             <div className="applyBox">
-            <a href="www.whatever.com" target="_blank" className="applyLink">Apply</a>
+            <a href="www.whatever.com" target="_blank">Apply</a>
             </div>
         </div>
     </div>
