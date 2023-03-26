@@ -67,15 +67,18 @@
     clear: both;
     background: #252B42;
     width: 100%;
-    height: 500px;
-    padding-left: 20px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .partnershipInfo h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 57px;
     letter-spacing: 0.2px;
     color: #ffffff;
@@ -85,33 +88,25 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 28px;
     color: #ffffff;
   }
 
-  .getInTouch {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-  }
-
-  .getInTouchButton {
-    border-radius: 10px;
-    width: 170px;
-    height: 64px;
-    padding-top: 16px;
-    padding-left: 50px;
-    margin-top: 15px;
-    margin-left: 0px;
-    padding-left: 0px;
+  .getInTouchButton  {
+    background-color: #E10000;
+    width: 200px;
     display: flex;
     justify-content: center;
-    align-self: left;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+  }
+
+  .getInTouchButton a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
   }
 
   .partnershipInfo {
@@ -150,30 +145,6 @@
     line-height: 28px;
     color: #ffffff;
   }
-
-  /* .getInTouch {
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-  } */
-
-  /* .getInTouchButton {
-    border-radius: 10px;
-    width: 220px;
-    height: 64px;
-    padding-top: 16px;
-    padding-left: 50px;
-    margin-top: 15px;
-    margin-left: 0px;
-    padding-left: 0px;
-    display: flex;
-    justify-content: center;
-    align-self: left;
-  } */
 
   .getInTouchButton  {
     background-color: #E10000;

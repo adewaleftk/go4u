@@ -58,19 +58,19 @@
 @media only screen and (min-width: 401px) and (max-width: 600px) {
 
     .copyright {
-        width: auto;
-        height: 8px;
+        width: 100%;
+        height: 10px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 800;
-        font-size: 12px;
+        font-size: 20px;
         line-height: 18px;
         letter-spacing: 0.1px;
         color: #5C5C5C;
-        margin-top: 15px;
-        padding-right: 5px;
         height: 40px;
-        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     } 
 
     .footer {
@@ -79,17 +79,18 @@
         display: flex;
         justify-content: center;
         background: #ffffff;
+        flex-direction: column;
     }
 
     .go4u img {
         padding-right: 0px;
         margin-top: 15px;
-        width: 50px;
+        width: 100px;
         height: auto;
     }
     
     .footerLogo img {
-        width: 60px;
+        width: 100px;
         height: auto;
         margin-top: 15px;
     }
@@ -102,6 +103,12 @@
 
     .socialMediaIcons {
         display: none;
+    }
+
+    .logoAndGO4U {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
     }
 }
 
@@ -120,7 +127,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
     } 
 
     .footer {
