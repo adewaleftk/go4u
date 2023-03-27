@@ -240,6 +240,8 @@
         padding: 0px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border: 1px;
         background-image: url('../images/navbar_background.png');
         background-size: cover;
@@ -258,18 +260,6 @@
         font-size: 20px;
         height: 10px;
         line-height: 1.2em;
-    }
- 
-    .go4uIs {
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 40px;
-        margin: 0px;
-        padding-bottom: 15px;
-        font-weight: 800;
     }
  
     .the {
@@ -294,7 +284,7 @@
         justify-content: center;
         color: var(--mainColor);
         line-height: 9px;
-        width: 500px;
+        width: full;
         height: 40px;
         font-weight: 800;
         top: 12px;
@@ -304,6 +294,11 @@
     .main-header .go4uIs {
         font-size: 18px;
         font-weight: 800;
+        width: full;
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
        }
 
     .buttons {
