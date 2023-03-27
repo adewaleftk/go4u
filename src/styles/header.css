@@ -301,6 +301,11 @@
         align-self: center;
     }
 
+    .main-header .go4uIs {
+        font-size: 18px;
+        font-weight: 800;
+       }
+
     .buttons {
         display: flex;
         justify-content: center;
