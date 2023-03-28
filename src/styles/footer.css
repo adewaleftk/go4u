@@ -58,12 +58,13 @@
 @media only screen and (min-width: 301px) and (max-width: 600px) {
 
     .copyright {
-        width: 100%;
+        width: full;
+        border: 1px solid green;
         height: 10px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 800;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 18px;
         letter-spacing: 0.1px;
         color: #5C5C5C;
@@ -80,6 +81,7 @@
         justify-content: center;
         background: #ffffff;
         flex-direction: column;
+        align-items: center;
     }
 
     .go4u img {
