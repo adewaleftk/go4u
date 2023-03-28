@@ -59,12 +59,11 @@
 
     .copyright {
         width: full;
-        border: 1px solid green;
         height: 10px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 800;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 18px;
         letter-spacing: 0.1px;
         color: #5C5C5C;
@@ -75,7 +74,7 @@
     } 
 
     .footer {
-        height: 50px;
+        height: auto;
         width: full;
         display: flex;
         justify-content: center;
