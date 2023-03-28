@@ -9,6 +9,7 @@
         display: flex;
         width: 175px;
         justify-content: space-around;
+        align-self: flex-start;
     }
     .facebook {
         margin-top: 5px;
@@ -27,6 +28,7 @@
         width: 175px;
         justify-content: space-around;
         align-items: center;
+        align-self: center;
     }
     .facebook {
         margin-top: 5px;
