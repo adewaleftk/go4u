@@ -98,7 +98,7 @@
 }
 
 
-@media only screen and (min-width: 201px) and (max-width: 600px) {
+@media only screen and (min-width: 301px) and (max-width: 600px) {
 
     .main-header {
        padding: 0px;
@@ -136,7 +136,6 @@
        font-weight: 800;
        top: 12px;
        align-self: center;
-       border: 1px solid red; 
    }
 
    .main-header .the{
