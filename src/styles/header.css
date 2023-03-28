@@ -136,6 +136,7 @@
        font-weight: 800;
        top: 12px;
        align-self: center;
+       border: 1px solid red; 
    }
 
    .main-header .the{
@@ -228,7 +229,7 @@
         font-weight: 50;
         font-size: 10px;
         padding-top: 70px;
-        line-height: 1.2;    
+        line-height: 1.2;   
     }
  
     .look {
@@ -252,6 +253,7 @@
         font-weight: 800;
         top: 12px;
         align-self: center;
+        border: 1px solid green; 
     }
  
     .main-header .the{
