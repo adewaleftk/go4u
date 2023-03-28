@@ -125,7 +125,7 @@ input[type="email"] {
 }
 
 
-@media only screen and (min-width: 401px) and (max-width: 600px) {
+@media only screen and (min-width: 301px) and (max-width: 600px) {
 
     .earlyAccess {
         display: flex;
@@ -182,7 +182,7 @@ input[type="email"] {
     input[type="email"] {
         background: #FFFFFF;
         border-radius: 30px;
-        width: 50%;
+        width: 55%;
         height: 68px;
         margin-right: 5px;
         padding-left: 20px;

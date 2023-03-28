@@ -76,7 +76,7 @@
 }
 
 
-@media only screen and (min-width: 401px) and (max-width: 600px) {
+@media only screen and (min-width: 301px) and (max-width: 600px) {
 
     .rider {
         clear: both;
@@ -117,13 +117,14 @@
     .moreInfo h2 {
         font-size: 20px;
         font-weight: 800;
+        color: #252B42;
     }
 
     .moreInfo p {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: normal;
+        font-size: 12px;
         line-height: 28px;
         text-align: justify;
         letter-spacing: 0.2px;

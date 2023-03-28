@@ -115,26 +115,15 @@
        font-style: normal; 
    }
 
-   /* .look {
-       font-size: 10px;
-       height: 10px;
-   } */
-
-   .the {
-       font-size: 20px;
-       height: 10px;
-   }
-
    .main-header .look{
        display: flex;
        justify-content: center;
        color: var(--mainColor);
        line-height: 9px;
-       width: 50;
+       width: full;
        height: 50px;
        font-size: 12px;
-       font-weight: 800;
-       top: 12px;
+       font-weight: 1200;
        align-self: center;
    }
 
@@ -144,10 +133,9 @@
        color: var(--mainColor);
        line-height: 9px;
        font-size: 15px;
-       width: 300px;
+       width: full;
        height: 50px;
        font-weight: 800;
-       top: 12px;
        align-self: center;
    }
 
@@ -163,48 +151,51 @@
    .buttons {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
 }
 
 .playStore {
-    display: inline-block;
-    padding: 8px 16px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+    display: flex;
     background-color: transparent;
-    border-radius: 25px;
     border: 1.5px solid white;
-    margin-right: 20px;
-    width: 170px;
+    width: 45%;
     border-radius: 31.3253px;
+    margin: 3px;
+}
+
+.playStore a {
+    font-size: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .playStore:hover {
     background-color: red;
 }
-.playStoreLink {
-    color: white;
-    text-decoration: none;
-}
 
 .appStore {
-    display: inline-block;
-    padding: 8px 16px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
+    display: flex;
     background-color: transparent;
     border: 1.5px solid white;
-    border-radius: 25px;
-    margin-left: 20px;
-    width: 170px;
+    width: 45%;
     border-radius: 31.3253px;
+    margin: 3px;
 }
 
-.appStoreLink {
+.appStore a {
+    font-size: 10px;
+    color: #ffffff;
     text-decoration: none;
-    color: white;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .appStore:hover {
