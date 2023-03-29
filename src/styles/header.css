@@ -166,16 +166,16 @@
     border-radius: 31.3253px;
     margin: 3px;
     background-color: #E00000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
 }
 
 .playStore a {
     font-size: 10px;
     color: #ffffff;
     text-decoration: none;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .playStore:hover {
@@ -188,17 +188,17 @@
     border: 1.5px solid white;
     width: 45%;
     border-radius: 31.3253px;
-    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
 }
 
 .appStore a {
     font-size: 10px;
     color: #ffffff;
     text-decoration: none;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
 }
 
 .appStore:hover {
