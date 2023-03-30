@@ -11,33 +11,20 @@
 @media only screen and (min-width: 961px) {
 
 .appLoading {
-    width: 349px;
-    height: 400px;
-    left: 182px;
-    top: 770px;
-    padding-right: 50px;
-    margin: 20px;
+    display: flex;
     
-    /* float: left; */
 }
 
 .earlyAccess {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .getEarlyAccess {
-    padding-top: 100px;
-    padding-right: 50px;
-    /* float: right; */
-}
-
-.app-l {
-    width: auto;
-    height: 564px;
-    /* padding-left: 50px; */
-    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .getEarlyAccessWord {

@@ -9,9 +9,17 @@
 @media only screen and (min-width: 961px) {
 
 .allExplore {
-    display: block;
-    padding-top: 60px;
-    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+    width: full;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.exploreWords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .exploreHeading {
@@ -63,16 +71,12 @@
     color: #737373;
 }
 
-.exploreWords {
-    float: left;
-    padding-left: 0px;
-    padding-top: 0px;
-}
 
 .appHome {
-    float: right;
-    padding-right: 80px;
+    display: flex;
+    
 }
+
 }
 
 @media only screen and (min-width: 301px) and (max-width: 600px) {

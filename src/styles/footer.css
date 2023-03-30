@@ -9,49 +9,69 @@
   @media only screen and (min-width: 961px) {
 
 .footer {
-    height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logoAndGO4U {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .footerLogo {
-    padding-left: 20px;
-    border-right: px;
-    padding-top: 5px;
+    display: flex;
+    
 }
 
 .go4u {
-    padding-right: 15px;
-    margin-top: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 28px;
 }
 
 .socialMediaIcons {
     display: flex;
-    padding-top: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .socialMediaIcons img {
-    margin: 0 40px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.instagram {
+    display: flex;
+}
+
+.facebook {
+    display: flex;
+    margin-right: 20px;
+}
+
+.twitter {
+    display: flex;
+    margin-right: 20px;
 }
 
 .copyright {
-    width: 255px;
-    height: 18px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 18px;
-    text-align: right;
     letter-spacing: 0.1px;
     color: #5C5C5C;
-    padding-top: 15px;
-    margin-top: 10px;
     padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 }
 
