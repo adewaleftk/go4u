@@ -103,7 +103,8 @@ input[type="email"] {
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-     letter-spacing: 0.1px;
+    letter-spacing: 0.1px;
+    border: none;
 }
 
 .allSubmit {
@@ -121,9 +122,14 @@ input[type="email"] {
         align-items: center;
     }
 
+    .appLoading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .earlyWords {
-        width: auto;
-        height: 114px;
+        width: full;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -144,26 +150,28 @@ input[type="email"] {
         color: #252B42;
     }
 
-    .appLoading, .getEarlyAccess {
-        float: none;
-    }
-
     .getEarlyAccessWord {
-        font-size: 20px;
-        color: #E00000;
+        color: #E10000;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
     }
 
     .getEarlyAccess {
         
         font-size: 14px;
-        padding-left: 20px;
         margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .allSubmit {
         font-size: 7px;
-        width: 100%;
-        margin-top: 70px;
+        width: full;
+        margin-top: 20px;
     }
 
     input[type="email"] {
@@ -186,6 +194,7 @@ input[type="email"] {
         font-size: 24px;
         line-height: 36px;
         letter-spacing: 0.1px;
+        border: none;
     }
 }
 

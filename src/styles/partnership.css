@@ -66,9 +66,8 @@
 @media only screen and (min-width: 301px) and (max-width: 600px) {
   
   .partnership {
-    clear: both;
     background: #252B42;
-    width: 100%;
+    width: full;
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -77,20 +76,22 @@
   }
 
   .partnershipInfo h2 {
+    display: flex;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 57px;
     letter-spacing: 0.2px;
     color: #ffffff;
+    width: full;
   }
   
   .partnershipInfo p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 28px;
     color: #ffffff;
   }
@@ -111,9 +112,6 @@
     font-weight: 800;
   }
 
-  .partnershipInfo {
-    text-align: left;
-  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 960px) {
