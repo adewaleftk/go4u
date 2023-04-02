@@ -145,14 +145,14 @@
        background-image: url('../images/navbar_background.png');
        background-size: cover;
        color: var(--textColor);
-       height: 350px;
+       height: 250px;
        width: full;
        font-family: 'Sora';
        font-style: normal; 
    }
 
    .look {
-    font-size: 20px;
+    font-size: 12px;
     font-family: 'Sora';
     font-style: normal;
     width: full;
@@ -163,7 +163,7 @@
 }
 
 .the {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 800; 
     font-family: 'Sora';
     width: full;
@@ -174,7 +174,7 @@
 }
 
 .go4uIs {
-    font-size: 17px;
+    font-size: 10px;
     font-weight: 100;
     font-family: 'Sora';
     width: full;

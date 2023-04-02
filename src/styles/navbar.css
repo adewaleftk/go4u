@@ -61,21 +61,21 @@
 
 @media only screen and (min-width: 301px) and (max-width: 600px) {
 
-  .nav {
+  /* .nav {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #333;
     padding: 1rem;
-  }
+  } */
   
   .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #000;
-    padding-right: 0px;
-    width: 80%;
+   
+    width: 90%;
   }
 
   .logo img {
@@ -85,7 +85,7 @@
   .links a {
     color: #000;
     margin: 0px;
-    font-size: 15px;
+    font-size: 12px;
     text-decoration: none;
   }
   
