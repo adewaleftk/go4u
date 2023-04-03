@@ -5,9 +5,11 @@ import "../styles/header.css";
 function Header() {
   return (
     <div className="main-header" >
-        <h1 className="look">Looking for where to order your favorite dish at</h1>
-        <h1 className="the">the nearest restaurant?</h1>
-        <div className="go4uIs">GO4U is here to offer you the best. Coming soon on:</div>
+      <div className="intro">
+        <p className="look">Looking for where to order your favorite dish at</p>
+        <p className="the">the nearest restaurant?</p>
+      </div>  
+        <div className="go4uIs"><p>GO4U is here to offer you the best. Coming soon on:</p></div>
     
         <div className="buttons">
           <div className="playStore">

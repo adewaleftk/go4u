@@ -139,7 +139,11 @@
         display: flex;
         justify-content: center;
         align-self: center;
-        width: full;
+       
+    }
+
+    .appHome img {
+        height: 200px;
     }
 
     .exploreHeading {
