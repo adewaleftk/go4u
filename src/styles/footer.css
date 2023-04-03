@@ -94,7 +94,7 @@
     } 
 
     .footer {
-        height: auto;
+        height: 70px;
         width: full;
         display: flex;
         justify-content: center;
