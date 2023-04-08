@@ -1,140 +1,117 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --mainColor: #ffffff;
-    --mainColorLight: #ffffff;
-    --secondaryColor: #E00000;
-    --textColor: #000;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25vh;
+  background: #ffffff;
 }
 
-@media only screen and (min-width: 961px) {
-
-  .nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    padding: 1rem;
-  }
-
-  .logo {
-    display: flex;
-    width: 176.09px;
-    height: 75.7px;
-  }
-  
-  .links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 500px;
-  }
-  
-  .links a {
-    color: #252B42;
-    letter-spacing: 0.2px;
-    line-height: 28px;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  
-  .links a:hover {
-    color: #E10000;
-  }
-  
-  .nav-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: full;
-    height: 120px;
-  }
+.nav-link {
+  text-decoration: none;
+  color: #252B42;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
 }
 
-@media only screen and (min-width: 301px) and (max-width: 600px) {
+.nav-link:hover {
+  color: #E10000;
+}
 
-  /* .nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    padding: 1rem;
-  } */
-  
-  .links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #000;
-   
-    width: 90%;
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5.2rem;
+}
+
+.nav_toggler div {
+  width: 39px;
+  height: 7px;
+  margin: 0.4rem;
+  background: #000000;
+  transition: 0.4s ease-in;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav_toggler {
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+      height:60px;
+      background: none;
   }
 
-  .logo img {
-    width: 40%;
+  .nav-logo img {
+      height: 50px;
+      display: flex;
+      align-items: center;
   }
+
+  .nav-link {
+      text-decoration: none;
+      color: #252B42;
+      letter-spacing: 0.2px;
+      line-height: 18px;
+      font-size: 24px;
+      font-weight: 600;
+      display: flex;
+    }
+
+    .nav-link:hover {
+      color: #E10000;
+    }
   
-  .links a {
-    color: #000;
-    margin: 0px;
-    font-size: 12px;
-    text-decoration: none;
+  ul {
+      list-style: none;
   }
-  
-  .links a:hover {
-    color: #E00000;
+
+  .nav_toggler {
+      display: block;
   }
-  
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    width: auto;
-    height: 70px;
-    align-items: center;
+
+  .nav_menu {
+      position: absolute;
+      top: 7vh;
+      right: 0;
+      width: 100%;
+      height: 60vh;
+      background: grey;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: 0.5s ease-in;
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 960px) {
-  .nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    padding: 1rem;
-  }
-  
-  .links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #000;
-    padding-right: 0px;
-    width: 80%;
-  }
-  
-  .links a {
-    color: #000;
-    margin: 0 1rem;
-    font-size: 1.2rem;
-    text-decoration: none;
-  }
-  
-  .links a:hover {
-    color: #E00000;
-  }
-  
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
+.nav_active {
+  transform: translateX(0);
 }
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-14px, 5px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-14px, -5px);
+}
+

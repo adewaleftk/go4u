@@ -12,19 +12,22 @@
 
 .appLoading {
     display: flex;
-    
+    margin: 30px;
+    width: 200px;
 }
 
 .earlyAccess {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .getEarlyAccess {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 30px;
 }
 
 .getEarlyAccessWord {
@@ -129,7 +132,7 @@ input[type="email"] {
     }
 
     .appLoading img {
-        height: 200px;
+        height: 400px;
     }
 
     .earlyWords {

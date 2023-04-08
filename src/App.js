@@ -7,18 +7,22 @@ import Explore from './components/Explore';
 import Rider from './components/Rider';
 import Partnership from './components/Partnership';
 import Footer from './components/Footer';
+import MobileHeader from './components/MobileHeader';
 
 function App() {
+  const isMobile = window.innerWidth < 768;
+
   return (
     <div className='App'>
-    <Navbar />
-    <Header />
-    <EarlyAccess />
-    <HowAppWorks />
-    <Explore />
-    <Rider />
-    <Partnership />
-    <Footer />
+      
+      <Navbar />
+      {isMobile ? <MobileHeader /> : <Header />}
+      <EarlyAccess />
+      <HowAppWorks />
+      <Explore />
+      <Rider />
+      <Partnership />
+      <Footer />
     </div>
 );
 }
