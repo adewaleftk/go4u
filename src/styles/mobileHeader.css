@@ -4,6 +4,58 @@
     box-sizing: border-box;
   }
 
+@media only screen and (min-width: 301px) and (max-width: 600px) {
+  .responsiveHeader {
+    background-image: url('../images/navbar_background.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    height: 400px;
+  }
+  .go4u {
+    color: #ffffff;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 76px;
+    display: flex;
+    margin-left: 10px;
+    
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+    width: full;
+    justify-content: left;
+    
+  }
+
+  .buttons img {
+    border: 0;
+    width: 160px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
   .responsiveHeader {
     background-image: url('../images/navbar_background.png');
     display: flex;
@@ -53,4 +105,4 @@
     /* width: 150px; */
     height: 90px;
   }
-
+}
