@@ -6,7 +6,7 @@
     box-sizing: border-box;
   }
 
-  @media only screen and (min-width: 961px) {
+@media only screen and (min-width: 961px) {
 
 .footer {
     display: flex;
@@ -23,7 +23,12 @@
 
 .footerLogo {
     display: flex;
-    
+}
+
+.footerLogo img {
+   height: 75px;
+   padding-top: 15px;
+   padding-bottom: 10px;
 }
 
 .go4u {
