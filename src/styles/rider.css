@@ -11,17 +11,22 @@
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-bottom: 80px;
 }
 
 .riderImage {
    display: flex;
+   margin-left: 50px;
+   padding-left: 40px;
+   margin-bottom: 50px;
 }
 
 .earnInfo {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   margin-right: 70px;
+   padding-right: 40px;
 }
 
 .earn {
@@ -84,6 +89,7 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin-bottom: 80px;
     }
 
     .earn {
@@ -154,11 +160,11 @@
 
 @media only screen and (min-width: 601px) and (max-width: 960px) {
     .rider {
-        /* clear: both; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 80px;
     }
 
     .riderImage {
