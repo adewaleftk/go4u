@@ -9,13 +9,12 @@ function MobileHeader() {
             <p>Order your favorite dish at</p>
             <p>the nearest restaurant</p>
         </div>
+        <div className="comingSoon">
+          <p>Coming Soon On:</p>
+        </div>
         <div className="buttons">
-        <a href="https://www.twitter.com/go4u_ng">
-                <img src={require('../images/playstore.png')} alt="Google Play" /> 
-        </a>
-        <a href="https://www.twitter.com/go4u_ng">
-            <img src={require('../images/appstore.png')} alt="App Store" /> 
-        </a>
+          <button>Play Store</button>
+          <button>App Store</button>
         </div>
     </div>
   )

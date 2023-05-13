@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     background-size: cover;
-    height: 400px;
+    height: 300px;
   }
   .go4u {
     color: #ffffff;
@@ -32,26 +32,40 @@
     color: #ffffff;
     font-family: 'Sora';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 20px;
     line-height: 35px;
     margin-left: 10px;
   }
 
+  .comingSoon {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 400;
+  }
+
   .buttons {
     display: flex;
     flex-direction: row;
-    border: 0;
-    padding: 0px;
-    margin: 0px;
-    width: full;
-    justify-content: left;
-    
+    margin-top: 20px;
+
   }
 
-  .buttons img {
-    border: 0;
-    width: 160px;
+  .buttons button {
+    background: red;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .buttons button:first-child {
+    margin-right: 10px;
   }
 }
 
@@ -89,21 +103,33 @@
     margin-left: 10px;
   }
 
+  .comingSoon {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 400;
+  }
+
   .buttons {
     display: flex;
     flex-direction: row;
-    border: 0;
-    padding: 0px;
-    margin: 0px;
-    width: full;
-    justify-content: left;
-    
+    margin-top: 20px;
+
   }
 
-  .buttons img {
-    border: 0;
-    height: 140px;
-    width: 210px;
-    padding-top: 10px;
+  .buttons button {
+    background: red;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .buttons button:first-child {
+    margin-right: 10px;
   }
 }
