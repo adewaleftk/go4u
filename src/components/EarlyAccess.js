@@ -30,6 +30,12 @@ function EarlyAccess() {
                 <p>business by making it easy for you to satisfy your</p>
                 <p>cravings in the shortest possible time.</p>
             </div>
+            <div className="mobileEarlyWords">
+              <p>Join the <span>GO4U</span> waitlist today and be the first</p>
+              <p>to know when we launch! Get your favorite</p>
+              <p>meals delivered right to your doorsteps with</p>
+              <p>just a few clicks</p>
+            </div>
             <div className="allSubmit">
                 <form onSubmit={handleSubmit}>
                 <label>

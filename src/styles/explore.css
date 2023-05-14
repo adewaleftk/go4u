@@ -82,7 +82,7 @@
 
 }
 
-@media only screen and (min-width: 301px) and (max-width: 600px) {
+@media only screen and (min-width: 301px) and (max-width: 550px) {
 
     .exploreWords {
         display: flex;
@@ -159,7 +159,7 @@
     }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 960px) {
+@media only screen and (min-width: 551px) and (max-width: 960px) {
 
     .orderFrom {
         font-family: 'Montserrat';
