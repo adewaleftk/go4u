@@ -36,7 +36,7 @@ function About() {
             </a>
         </div>
         <div className="aboutCopyright">
-            <p>Copyrighted &copy; GO4U Technologies</p>
+            <p>&copy; All Rights Reserved,2023 GO4U Technologies</p>
         </div>
     </div>
   )

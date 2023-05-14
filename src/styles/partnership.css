@@ -130,10 +130,9 @@
 @media only screen and (min-width: 551px) and (max-width: 960px) {
 
   .partnership {
-    clear: both;
     background: #252B42;
     width: 100%;
-    height: 450px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,42 +140,52 @@
   }
 
   .partnershipInfo h2 {
+    width: 100%;
+    height: 36px;  
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 57px;
-    letter-spacing: 0.2px;
-    color: #ffffff;
-    width: full;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;  
+    letter-spacing: 0.1px;  
+    color: #FFFFFF;
   }
   
   .partnershipInfo p {
+    width: full;
+    height: 40px;   
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px; 
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
   }
 
   .getInTouchButton  {
     background-color: #E10000;
-    width: 200px;
+    width: 250px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
   }
 
   .getInTouchButton a {
     text-decoration: none;
-    color: #ffffff;
-    font-weight: 800;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    
   }
-
-  /* .partnershipInfo {
-    text-align: left;
-  } */
 }
