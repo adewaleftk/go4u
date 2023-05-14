@@ -22,10 +22,18 @@ function About() {
             <p>network of on-demand delivery personnel.</p>
         </div>
         <div className="aboutIcons">
-            <img src={require('../images/linkedin.png')} alt="Logo" />
-            <img src={require('../images/aboutFB.png')} alt="Logo" />
-            <img src={require('../images/aboutTwitter.png')} alt="Logo" />
-            <img src={require('../images/aboutIG.png')} alt="Logo" />
+            <a href="https://www.linkedin.com/company/go4ung">
+                <img src={require('../images/linkedin.png')} alt="LinkedIn Logo" />
+            </a>
+            <a href="https://www.facebook.com/go4u_ng">
+                <img src={require('../images/aboutFB.png')} alt="Facebook Logo" />
+            </a>
+            <a href="https://www.twitter.com/go4u_ng">
+                <img src={require('../images/aboutTwitter.png')} alt="Twitter Logo" />
+            </a>
+            <a href="https://www.instagram.com/go4u_ng">
+                <img src={require('../images/aboutIG.png')} alt="Instagram Logo" />
+            </a>
         </div>
         <div className="aboutCopyright">
             <p>Copyrighted &copy; GO4U Technologies</p>
