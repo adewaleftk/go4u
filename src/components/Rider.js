@@ -5,31 +5,22 @@ function Rider() {
   return (
     <div className="rider">
         <div className="riderImage">
-            <img src={require('../images/Rider.png')} alt="Dispatch Rider" className="riderPic" />
+            <img src={require('../images/Rider.png')} alt="Dispatch Rider" />
         </div>
         <div className="earnInfo">
             <div>
                 <p className="earn">Earn as a GO4U rider</p>
             </div>
             <div className="moreInfo">
-                <div>
                     <h2>Become a rider</h2>
-                </div>
-                <div>
-                    <p>You decide when, where, and how much you</p>
-                </div>
-                <div>
-                    <p>work. Choose whether or not to accept orders,</p>
-                </div>
-                <div>
-                    <p>find demand near you. You can forget about</p>
-                </div>
-                <div>
-                    <p>reporting to an office-- or a boss.</p>
-                </div>
+                    <p>You decide when, where, and how much</p>
+                    <p>you work. Choose whether or not to accept</p>
+                    <p>orders,find demand near you. You can</p>
+                    <p> forget about reporting to an office-- or a</p>
+                    <p> boss.</p>
             </div>
             <div className="applyBox">
-            <a href="www.whatever.com" target="_blank">Apply</a>
+            <a href="mailto:support@Go4u.ng" target="_blank"  rel="noopener noreferrer">Apply Now</a>
             </div>
         </div>
     </div>
