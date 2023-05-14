@@ -8,19 +8,24 @@
 
 @media only screen and (min-width: 301px) and (max-width: 550px) {
     .nav_menu {
-        display: none;
-      }
-      
-      .nav_active {
-        display: block;
-      }
-      
-      .navbar {
-        height: 98px;
-      }
-      .navbar img {
-        height: 40px;
-      }
+          display: none;
+    }
+        
+    .nav_active {
+          display: block;
+    }
+        
+    .navbar {
+          height: 98px;
+    }
+    .navbar img {
+          height: 33.86px;
+    }
+
+    .go4u-header img {
+      height: 23.44px;
+      margin-left: -115px;
+    }
     .nav_menu.nav_active {
       display: flex;
       flex-direction: column;
@@ -95,6 +100,7 @@
       
       .nav-logo {
         display: inline-block;
+        height: 33.86px;
       }
       
       .nav_toggler {
@@ -138,8 +144,12 @@
       height: 98px;
     }
     .navbar img {
-      height: 40px;
-    }
+      height: 33.86px;
+}
+  .go4u-header img {
+    height: 23.44px;
+    margin-left: -300px;
+}
   .nav_menu.nav_active {
     display: flex;
     flex-direction: column;
@@ -252,7 +262,10 @@
         height: 90px;
         background: #ffffff;
       }
-      
+
+      .go4u-header {
+        display: none;
+      }
       .nav-link {
         text-decoration: none;
         color: #252B42;

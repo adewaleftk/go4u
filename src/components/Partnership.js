@@ -1,7 +1,5 @@
 import React from 'react';
 import "../styles/partnership.css";
-import SocialMediaIcons from './SocialMediaIcons';
-import "../styles/socialMediaIcons.css";
 
 function Partnership() {
   return (
@@ -16,8 +14,6 @@ function Partnership() {
                 <a href="mailto:support@Go4u.ng" target="_blank"  rel="noopener noreferrer" >Get In Touch</a>
             </div>
         </div>
-      
-        <SocialMediaIcons />
   
     </div>
   )
