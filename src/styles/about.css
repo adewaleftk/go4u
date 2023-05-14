@@ -49,6 +49,7 @@
         flex-direction: row;
         width: 100%;
         margin-top: 10px;
+        margin-left: 15px;
     }
 
     .aboutIcons img:nth-child(1){
