@@ -8,6 +8,7 @@ import Rider from './components/Rider';
 import Partnership from './components/Partnership';
 import Footer from './components/Footer';
 import MobileHeader from './components/MobileHeader';
+import About from './components/About';
 
 function App() {
   const isMobile = window.innerWidth < 768;
@@ -22,6 +23,7 @@ function App() {
       <Explore />
       <Rider />
       <Partnership />
+      <About />
       <Footer />
     </div>
 );

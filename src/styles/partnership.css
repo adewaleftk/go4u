@@ -68,7 +68,7 @@
   .partnership {
     background: #252B42;
     width: full;
-    height: 450px;
+    height: 328px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,40 +76,53 @@
   }
 
   .partnershipInfo h2 {
-    display: flex;
+    width: 367px;
+    height: 36px;  
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 57px;
-    letter-spacing: 0.2px;
-    color: #ffffff;
-    width: full;
+    line-height: 36px;  
+    letter-spacing: 0.1px;  
+    color: #FFFFFF;
   }
   
   .partnershipInfo p {
+    width: 367px;
+    height: 30px;   
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 28px;
-    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px; 
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
   }
 
   .getInTouchButton  {
     background-color: #E10000;
-    width: 200px;
+    width: 170px;
+    height: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
   }
 
   .getInTouchButton a {
     text-decoration: none;
-    color: #ffffff;
-    font-weight: 800;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    
   }
 
 }

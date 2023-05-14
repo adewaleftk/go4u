@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 301px) and (max-width: 550px) {
+
+    .about {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutlogo {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .aboutLogo img{
+        height: 45px;
+        padding-bottom: 10px;
+    }
+
+    .aboutGo4u img{
+        height: 30px;
+        margin-left: -10px;
+        padding-top: 05px;
+    }
+
+    .aboutWords p {
+        width: 371px;
+        height: 33px; 
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px; 
+        color: #3D4B5D;
+    }
+
+    .aboutIcons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .aboutIcons img:nth-child(1){
+        margin-right: 15px;
+    }
+
+    .aboutIcons img:nth-child(2){
+        margin-right: 15px;
+    }
+
+    .aboutIcons img:nth-child(3){
+        margin-right: 15px;
+    }
+
+    .aboutCopyright {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #3D4B5D;
+        width: 100%;
+        height: 50px;   
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 165%;
+        color: #3D4B5D;
+    }
+}
