@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -10,47 +12,45 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-size: cover;
-    height: 300px;
-  }
-  .go4u {
-    color: #ffffff;
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 76px;
-    display: flex;
-    margin-left: 10px;
-    
+    height: 418px;
   }
 
   .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: #ffffff;
     font-family: 'Sora';
     font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 24px;
     line-height: 35px;
     margin-left: 10px;
+    width: 359px;
+    height: 96px;
   }
 
   .comingSoon {
     color: #ffffff;
-    font-size: 20px;
     margin-left: 10px;
-    font-weight: 400;
-    margin-top: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 196px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
   }
 
   .buttons {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-
   }
 
   .buttons button {
@@ -59,14 +59,19 @@
     font-size: 20px;
     font-weight: 600;
     margin: 0px;
-    height: 50px;
-    width: 150px;
     border: none;
-    border-radius: 20px;
+    width: 151.01px;
+    height: 43.07px;
+    border-radius: 20.7577px;
   }
 
   .buttons button:first-child {
     margin-right: 10px;
+  }
+
+  .buttons button:nth-child(2) {
+    background: transparent;
+    border: 0.993975px solid #FFFFFF;
   }
 }
 

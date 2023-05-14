@@ -4,10 +4,11 @@ import "../styles/mobileHeader.css";
 function MobileHeader() {
   return (
     <div className="responsiveHeader">
-        <p className="go4u">GO4U</p>
+        
         <div className="info">
-            <p>Order your favorite dish at</p>
-            <p>the nearest restaurant</p>
+          <p>Looking for where to order</p>
+            <p>your favorite dish at the</p>
+            <p>nearest restaurant ?</p>
         </div>
         <div className="comingSoon">
           <p>Coming Soon On:</p>
