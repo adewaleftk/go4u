@@ -203,7 +203,7 @@
     }
 
     .orderFrom {
-        width: 367px;
+        width: full;
         height: 29px;      
         font-family: 'Montserrat';
         font-style: normal;
@@ -216,7 +216,7 @@
     }
 
     .restaur {
-        width: 367px;
+        width: full;
         height: 29px;     
         font-family: 'Montserrat';
         font-style: normal;
