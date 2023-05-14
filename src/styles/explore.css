@@ -151,7 +151,6 @@
     .track {
         width: 367px;
         height: 30px;
-        
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
@@ -177,82 +176,92 @@
 
 @media only screen and (min-width: 551px) and (max-width: 960px) {
 
-    .orderFrom {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 57px;
-        letter-spacing: 0.2px;
-        color: #252B42;
-    }
-
-    .restaur {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 57px;
-        letter-spacing: 0.2px;
-        color: #252B42;
-    }
-
+   
     .allExplore {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 10px;
-        padding-left: 20px;
+    }
+
+    .exploreWords {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .exploreHeading {
+        width: 450px;
+        height: 36px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: #E10000;
+    }
+
+    .orderFrom {
+        width: 367px;
+        height: 29px;      
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 29px;
+        letter-spacing: 0.2px;       
+        color: #252B42;
+        margin-top: 10px;
+    }
+
+    .restaur {
+        width: 367px;
+        height: 29px;     
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 29px;
+        letter-spacing: 0.2px;      
+        color: #252B42;
+        margin-bottom: 20px;
     }
 
     .orderFor {
+        width: full;
+        height: 30px; 
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
-        line-height: 38px;
+        font-size: 30px;
+        line-height: 30px;
         letter-spacing: 0.2px;
         color: #737373;
     }
 
     .track {
+        width: full;
+        height: 30px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 24px;
-        line-height: 38px;
+        font-size: 30px;
+        line-height: 30px;
         letter-spacing: 0.2px;
         color: #737373;
     }
 
     .appHome {
-        padding-left: 10px;
-        padding-top: 20px;
-        padding-right: 0;
-        margin-left: 50px;
-        width: auto;
-        height: auto;
-    }
-    .appHome img {
         display: flex;
         justify-content: center;
         align-self: center;
-        margin-top: 20px;
+        margin: 15px;
     }
 
-    .exploreHeading {
-        color: #E10000;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 50px;
-        line-height: 50px;
+    .appHome img {
+        width: 179.43px;
+        height: 314px;
     }
 
-    .exploreWords {
-        float: left;
-        padding-left: 0px;
-        padding-top: 0px;
-    }
 }
