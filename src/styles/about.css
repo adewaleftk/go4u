@@ -19,7 +19,7 @@
     .aboutlogo {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: full;
     }
 
     .aboutLogo img{
@@ -34,7 +34,7 @@
     }
 
     .aboutWords p {
-        width: 371px;
+        width: full;
         height: 33px; 
         font-family: 'Montserrat';
         font-style: normal;
@@ -47,9 +47,8 @@
     .aboutIcons {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: full;
         margin-top: 10px;
-        margin-left: 15px;
     }
 
     .aboutIcons img:nth-child(1){
@@ -94,7 +93,7 @@
     .aboutlogo {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: full;
     }
 
     .aboutLogo img{
@@ -114,7 +113,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 35px;
+        font-size: 30px;
         line-height: 30px; 
         color: #3D4B5D;
     }
@@ -122,9 +121,8 @@
     .aboutIcons {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: full;
         margin-top: 10px;
-        margin-left: 15px;
     }
 
     .aboutIcons img:nth-child(1){
