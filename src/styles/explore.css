@@ -99,7 +99,6 @@
     }
 
     .exploreHeading {
-        width: 367px;
         height: 36px;
         font-family: 'Montserrat';
         font-style: normal;
@@ -111,12 +110,12 @@
     }
 
     .orderFrom {
-        width: 367px;
+        width: 300px;
         height: 29px;      
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 29px;
         letter-spacing: 0.2px;       
         color: #252B42;
@@ -124,12 +123,12 @@
     }
 
     .restaur {
-        width: 367px;
+        width: 300px;
         height: 29px;     
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 29px;
         letter-spacing: 0.2px;      
         color: #252B42;
@@ -137,7 +136,7 @@
     }
 
     .orderFor {
-        width: 367px;
+        width: full;
         height: 30px; 
         font-family: 'Montserrat';
         font-style: normal;
@@ -149,7 +148,7 @@
     }
 
     .track {
-        width: 367px;
+        width: full;
         height: 30px;
         font-family: 'Montserrat';
         font-style: normal;

@@ -14,12 +14,18 @@ function Navbar () {
 
   return (
     <nav className="navbar">
-      <a href="/" className="nav-logo" >
-        <img src={require('../images/GO4U-LOGO.png')} alt="Logo" />
-      </a>
-      <a href="/" className="go4u-header">
-        <img src={require('../images/GO4U_mobile.png')} alt="Navbar Logo"/>
-      </a>  
+      <div className="mobileLogos">
+        <div  className="nav-logo">
+          <a href="/" >
+            <img src={require('../images/GO4U-LOGO.png')} alt="Logo" />
+          </a>
+      </div>
+      <div className="go4u-header">
+          <a href="/">
+            <img src={require('../images/GO4U_mobile.png')} alt="Navbar Logo"/>
+          </a>  
+      </div>
+      </div>
       <div onClick={navToggle} className={toggleIcon}>
         <div className="line1"></div>
         <div className="line2"></div>

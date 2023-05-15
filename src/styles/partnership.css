@@ -76,7 +76,7 @@
   }
 
   .partnershipInfo h2 {
-    width: 367px;
+    width: full;
     height: 36px;  
     font-family: 'Montserrat';
     font-style: normal;
@@ -88,7 +88,7 @@
   }
   
   .partnershipInfo p {
-    width: 367px;
+    width: full;
     height: 30px;   
     font-family: 'Montserrat';
     font-style: normal;

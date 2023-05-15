@@ -22,10 +22,16 @@
           height: 33.86px;
     }
 
+    .mobileLogos {
+      display: flex;
+      flex-direction: row;
+    }
+
     .go4u-header img {
       height: 23.44px;
-      margin-left: -115px;
+      margin-top: 5px;
     }
+
     .nav_menu.nav_active {
       display: flex;
       flex-direction: column;
@@ -145,10 +151,15 @@
     }
     .navbar img {
       height: 33.86px;
-}
+    }
+
+    .mobileLogos {
+      display: flex;
+      flex-direction: row;
+    }
   .go4u-header img {
     height: 23.44px;
-    margin-left: -300px;
+    margin-top: 5px;
 }
   .nav_menu.nav_active {
     display: flex;

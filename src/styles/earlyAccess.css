@@ -153,7 +153,7 @@ input[type="email"] {
     }
 
     .mobileEarlyWords {
-        width: 370px;
+        width: full;
         height: 120px;
         font-family: 'Montserrat';
         font-style: normal;
@@ -263,7 +263,7 @@ input[type="email"] {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 30px;
+        font-size: 28px;
         line-height: 45px;
         letter-spacing: 0.2px;
         color: #737373;
@@ -305,7 +305,7 @@ input[type="email"] {
     input[type="email"] {
         background: #FFFFFF;
         border-radius: 30px;
-        width: 400px;
+        width: 330px;
         height: 68px;
         margin-right: 5px;
         padding-left: 20px;
