@@ -1,30 +1,21 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
+import Homepage from './components/Homepage';
 import EarlyAccess from './components/EarlyAccess';
-import HowAppWorks from './components/HowAppWorks';
-import Explore from './components/Explore';
 import Rider from './components/Rider';
 import Partnership from './components/Partnership';
-import Footer from './components/Footer';
-import MobileHeader from './components/MobileHeader';
-import About from './components/About';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
-  const isMobile = window.innerWidth < 768;
+
 
   return (
     <div className='App'>
-      
-      <Navbar />
-      {isMobile ? <MobileHeader /> : <Header />}
-      <EarlyAccess />
-      <HowAppWorks />
-      <Explore />
-      <Rider />
-      <Partnership />
-      <About />
-      <Footer />
+      <Routes>
+        <Route index element={<Homepage />} />
+        <Route path="/earlyaccess" element={<EarlyAccess />} />
+        <Route path="/rider" element={<Rider />} />
+        <Route path="/contact" element={<Partnership />} />
+      </Routes>
     </div>
 );
 }
