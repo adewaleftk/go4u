@@ -1,1 +1,1 @@
-Website Landing Page of GO4U Technologies
+Waitlist Page for GO4U Technologies
